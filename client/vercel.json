@@ -4,12 +4,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "vite",
-  "env": {
-    "VITE_API_URL": {
-      "description": "Backend API URL",
-      "default": "http://localhost:5000/api"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
