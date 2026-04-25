@@ -12,7 +12,7 @@
   },
   "rewrites": [
     {
-      "source": "/:path((?!_next/static|_next/image|favicon.ico).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
