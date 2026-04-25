@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-
+import { Analytics } from "@vercel/analytics/react";
 import Cursor from "./components/Cursor";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
@@ -105,6 +105,7 @@ function App() {
           </Routes>
         </motion.div>
       </AnimatePresence>
+      <Analytics />
     </>
   );
 }
